@@ -1,0 +1,36 @@
+#meu-header {
+        background-color: #f14c4c;
+    color: #58a9ce;
+     
+  }
+.logo-tipo {
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+#meu-main {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+#meu-footer {
+    background-color: darkcyan;
+    text-align: center;
+}
+
+  
