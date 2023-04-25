@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+body {
+    background-image: url(https://images.ecycle.com.br/wp-content/uploads/2021/04/29191249/floresta-us.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: aqua;
+}
+
+main {
+    
+    background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form .form_group {
+    display: flex;
+    justify-content: space-between;
+}
+form .title h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+form .title {
+  margin-bottom: 20px;
+}
+
+form .subtitle {
+  margin-bottom: 40px;
+}
+
+form .subtitle h2 {
+  font-weight: normal;
+  font-size: 0.75rem;
+  opacity: 0.5;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 8px 14px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+form .input-group {
+  margin-bottom: 16px;
+}
+
+form input[type="submit"],
+form button {
+  width: 100%;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-weight: bold;
+}
+
+form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form button svg {
+  width: 16px;
+  margin-right: 8px;
+}
+
+#btn-singin {
+  background-color: #096bde;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}

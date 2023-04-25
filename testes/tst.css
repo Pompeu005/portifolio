@@ -1,0 +1,19 @@
+
+.container {
+    /* Ajuste a altura e largura da div container conforme necessário */
+    height: 200px;
+    width: 200px;
+  }
+  
+  .bordered-div {
+    /* Ajuste a altura e largura da div com borda conforme necessário */
+    height: 100%;
+    width: 100%;
+    border-width: 10px;
+    border-style: solid;
+    /* Defina o gradiente linear como background-image */
+    background-image: linear-gradient(to right, #ff0000, #00ff00);
+    /* Ajuste o valor '10px' para a largura da borda para combinar com a borda */
+    border-image: linear-gradient(to right, #ff0000, #00ff00) 10;
+  }
+  
