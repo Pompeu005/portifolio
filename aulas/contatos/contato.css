@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom , rgb(255, 255, 255), #3d0000, rebeccapurple );
+    background: linear-gradient(to bottom , #98B9F2, #6F9CEB, #306BAC, #141B41);
     margin: 0;
     position: relative;
     z-index: 0;
@@ -7,14 +7,14 @@ body {
 
 header {
     color: white;
-    background: linear-gradient(to left,  #5a5858, #ffffff);
+    background-color: #918EF4;
     padding-top: 5px;
     align-items: center;
     display: flex;
     position: relative;
     width: 99%;
     height: 55px;
-    border: solid 5px rgb(0, 0, 0); border-radius:0 0 25px 25px;
+    border: solid 5px rgb(0, 0, 0); border-radius: 25px;
 
 }
 
@@ -27,8 +27,7 @@ header .header_icon img {
 }
 
 nav {
-    background: linear-gradient(to left, rgb(255, 255, 255), rgb(255, 255, 255));
-    border: solid red 5px;
+    background-color: #918EF4;
     position: relative;
     height: 30px;
     margin-left: 30px;
@@ -47,10 +46,11 @@ main {
 }
 
 .ctt {
-    background-color: #e3e3d1;
+    color: #474747;
+    background-color: #918EF4;
     width: 1000px;
     height: 600px;
-    border-radius: 100px; border: double rgb(216, 10, 10) 10px;
+    border-radius: 100px;
 }
 
 .ctt_nick { 
