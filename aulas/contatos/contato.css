@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom , #98B9F2, #6F9CEB, #306BAC, #141B41);
+    background: linear-gradient(to bottom , #141B41, #306BAC, #6F9CEB,#98B9F2 , rgb(122, 76, 248), #98B9F2, #6F9CEB, #306BAC, #141B41);
     margin: 0;
     position: relative;
     z-index: 0;
@@ -47,7 +47,7 @@ main {
 
 .ctt {
     color: #474747;
-    background-color: #918EF4;
+    background-color: #322b4d;
     width: 1000px;
     height: 600px;
     border-radius: 100px;
